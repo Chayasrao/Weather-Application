@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>weather App</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body style=" font-family: 'sans-serif'; background-image: url('background.jpg'); background-size: cover;
+background-position: top center;"> 
+	<div class="app-wrap">
+		<video autoplay loop muted id="back-id">
+			<source src="main2.mp4" type="video/mp4">
+		</video>
+		
+		<header>
+			<input type="text" autocomplete="off" class="search-box" placeholder="Search for a city">
+		</header>
+
+		<main>
+			<section class="location">
+				<div class="city">Mysore, IN</div>
+				<div class="date">Friday 07 April</div>
+			</section>
+
+			<div class="current">
+				<div class="temp">15<span>°C</span></div>
+				<div class="weather">Cloudy</div>
+				<div class="hi-low">25°C / 35°C</div>
+			</div>
+		</main>
+	</div>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
